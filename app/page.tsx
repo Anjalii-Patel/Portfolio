@@ -39,7 +39,7 @@ export default function HomePage() {
 
         <div className="home-photo-wrap">
           <div className="home-photo-placeholder">
-            <span>Photo<br />goes<br />here</span>
+            {/* <span>Photo<br />goes<br />here</span> */}
           </div>
         </div>
       </div>
