@@ -7,10 +7,10 @@ export default function WorkPage() {
     <>
       <div className="page-header">
         <h1 className="page-title">Work &amp; Research</h1>
-        <p className="page-subtitle">Experience · Projects · Ongoing Research</p>
+        <p className="page-subtitle">Research · Systems · Experience</p>
       </div>
 
-      {/* ── A. Current Work ──────────────────────────────── */}
+      {/* A. Current Work */}
       <section className="work-section">
         <div className="section-label">Current Work</div>
 
@@ -19,7 +19,8 @@ export default function WorkPage() {
             ISRO-Funded Research Project — Pandit Deendayal Energy University
           </h2>
           <div className="entry-meta">
-            <span className="entry-time">Feb. 2026 — Present</span>
+            <span className="entry-time">Feb. 2026 — Present</span>            
+            <span className="entry-time">|</span>
             <span className="entry-context">Project Associate – I, PDEU</span>
           </div>
 
@@ -35,32 +36,38 @@ export default function WorkPage() {
           <div className="entry-field">
             <div className="entry-field-label">What I work on</div>
             <div className="entry-field-value">
-              Design and implementation of multimodal AI pipelines for processing
-              remote sensing imagery, LiDAR point clouds, and optical sensor data.
-              Research involves data preprocessing, feature extraction, and building
-              models capable of handling heterogeneous space data modalities.
+              Working on the problem of cross-modal alignment between LiDAR intensity images,
+              Digital Elevation Models (DEM), and optical imagery.
+
+              The focus is on how structural, geometric, and radiometric differences across
+              these modalities affect feature matching and representation.
+
+              Current work involves exploring hybrid approaches combining handcrafted
+              feature extractors with learned representations to achieve robust matching
+              under real-world conditions.
             </div>
           </div>
 
           <div className="entry-field">
             <div className="entry-field-label">Methods &amp; Tools</div>
             <div className="entry-field-value mono">
-              Python · PyTorch · Remote Sensing · LiDAR Processing ·
-              Multimodal Architectures · Earth Observation Datasets
+              Feature Matching · Cross-Modal Registration · LiDAR Processing ·
+              DEM Analysis · Hybrid Feature Design · CNN-based Representations
             </div>
           </div>
 
           <div className="entry-field">
             <div className="entry-field-label">Key Outcomes</div>
             <div className="entry-field-value">
-              Ongoing. Current work is shaping an understanding of representation challenges
-              across modalities, forming the basis for future research contributions and PhD work.
+              Ongoing. Current work is focused on understanding how feature representation
+              affects matching accuracy across modalities, and how hybrid approaches can
+              balance robustness with real-time deployment constraints.
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── B. Professional Experience ───────────────────── */}
+      {/* B. Professional Experience */}
       <section className="work-section">
         <div className="section-label">Professional Experience</div>
 
@@ -68,6 +75,7 @@ export default function WorkPage() {
           <h2 className="entry-title">Associate AI/ML Engineer — Artem Health Tech Pvt. Ltd.</h2>
           <div className="entry-meta">
             <span className="entry-time">July 2025 — Jan. 2026</span>
+            <span className="entry-time">|</span>
             <span className="entry-context">Full-time</span>
           </div>
 
@@ -82,10 +90,11 @@ export default function WorkPage() {
           <div className="entry-field">
             <div className="entry-field-label">What I worked on</div>
             <div className="entry-field-value">
-              Developed and deployed ASR pipelines integrated with LLM-based systems.
-              Work involved handling noisy data, optimizing inference performance,
-              and designing retrieval layers for downstream applications.
-              This phase emphasized system reliability and practical constraints.
+              Worked on integrating speech-to-text systems with downstream NLP pipelines,
+              focusing on robustness under noisy real-world data.
+
+              Contributed to backend ML services and inference pipelines, with emphasis on
+              evaluation, reproducibility, and system stability rather than isolated model performance.
             </div>
           </div>
 
@@ -99,9 +108,8 @@ export default function WorkPage() {
           <div className="entry-field">
             <div className="entry-field-label">Key Outcomes</div>
             <div className="entry-field-value">
-              Improved ASR pipeline efficiency and contributed to production
-              systems used by active clients. Gained experience in evaluation,
-              deployment, and failure analysis of ML systems.
+              Contributed to production ML systems used in real-world workflows, gaining
+              experience in handling data variability, evaluation challenges, and deployment constraints.
             </div>
           </div>
         </div>
@@ -110,6 +118,7 @@ export default function WorkPage() {
           <h2 className="entry-title">AI/ML Intern — Artem Health Tech Pvt. Ltd.</h2>
           <div className="entry-meta">
             <span className="entry-time">Dec. 2024 — June 2025</span>
+            <span className="entry-time">|</span>
             <span className="entry-context">Internship</span>
           </div>
 
@@ -124,9 +133,11 @@ export default function WorkPage() {
           <div className="entry-field">
             <div className="entry-field-label">What I worked on</div>
             <div className="entry-field-value">
-              Explored speaker diarization, noise-robust ASR, and dataset
-              preparation for Indian-language speech. Built evaluation pipelines
-              to benchmark model performance under varying conditions.
+              Explored foundational problems in speech processing, including dataset
+              preparation, noise handling, and model evaluation.
+
+              Built initial experimentation pipelines and benchmarked model performance
+              under varying conditions, which informed later production work.
             </div>
           </div>
 
@@ -147,31 +158,38 @@ export default function WorkPage() {
         </div>
       </section>
 
-      {/* ── C. Selected Projects ─────────────────────────── */}
+      {/* C. Systems & Experiments */}
       <section className="work-section">
-        <div className="section-label">Selected Projects</div>
+        <div className="section-label">Systems & Experiments</div>
 
         <div className="work-entry">
-          <h2 className="entry-title">Medinova — AI-Assisted Medical Information System</h2>
+          <h2 className="entry-title">Medinova — AI-Assisted Medical Information System · <a href="https://github.com/Anjalii-Patel/Medinova" target="_blank">GitHub</a></h2>
           <div className="entry-meta">
             <span className="entry-time">July - Aug 2025</span>
+            <span className="entry-time">|</span>
             <span className="entry-context">Independent</span>
           </div>
 
           <div className="entry-field">
             <div className="entry-field-label">Context</div>
             <div className="entry-field-value">
-              Exploration of combining structured medical knowledge with language
-              models for query-based interaction.
+              Exploration of multimodal pipelines combining speech, document data,
+              and retrieval-based generation within a single system.
             </div>
           </div>
 
           <div className="entry-field">
             <div className="entry-field-label">What I worked on</div>
             <div className="entry-field-value">
-              Designed a system integrating speech input, document ingestion,
-              and retrieval-based generation. The focus was on how different
-              input types interact within a single pipeline.
+              Built an end-to-end system integrating speech input, document ingestion,
+              and retrieval-based generation.
+
+              The system involved transcription using Whisper, preprocessing of
+              PDF/DOCX medical documents, and embedding-based retrieval using vector
+              similarity search.
+
+              Focus was on how multiple input modalities (audio + text) interact within
+              a single pipeline, and how retrieval quality affects downstream responses.
             </div>
           </div>
 
@@ -185,23 +203,25 @@ export default function WorkPage() {
           <div className="entry-field">
             <div className="entry-field-label">Key Outcomes</div>
             <div className="entry-field-value">
-              Demonstrated measurable improvement in answer relevance over a
-              direct LLM baseline on a held-out medical Q&amp;A dataset.
+              Developed a working multimodal pipeline and evaluated retrieval-based
+              responses against direct LLM outputs. Identified limitations in context
+              selection and embedding quality through iterative testing.
             </div>
           </div>
         </div>
 
         <div className="work-entry">
-          <h2 className="entry-title">RAG Finance QA System</h2>
+          <h2 className="entry-title">RAG Finance QA System · <a href="https://github.com/Anjalii-Patel/rag_qa_system" target="_blank">GitHub</a></h2>
           <div className="entry-meta">
             <span className="entry-time">Dec. 2024 - May 2025</span>
+            <span className="entry-time">|</span>
             <span className="entry-context">Academic Project</span>
           </div>
 
           <div className="entry-field">
             <div className="entry-field-label">Context</div>
             <div className="entry-field-value">
-              Exploration of retrieval-augmented generation for structured
+              Implementation of retrieval-augmented generation for structured
               financial document question answering.
             </div>
           </div>
@@ -209,10 +229,14 @@ export default function WorkPage() {
           <div className="entry-field">
             <div className="entry-field-label">What I worked on</div>
             <div className="entry-field-value">
-              Designed a full RAG pipeline ingesting financial reports (10-K,
-              quarterly filings) and enabling precise natural-language queries
-              over structured numerical and textual content. Focused on chunk
-              strategy, embedding quality, and reranking.
+              Built a retrieval-augmented QA system over financial documents,
+              including annual reports and structured filings.
+
+              Implemented document preprocessing, chunking strategies, and embedding-based
+              retrieval using SentenceTransformers and ChromaDB.
+
+              Additionally explored domain adaptation by fine-tuning a Flan-T5 model,
+              and evaluated system performance using ROUGE, BLEU, and similarity metrics.
             </div>
           </div>
 
@@ -226,8 +250,9 @@ export default function WorkPage() {
           <div className="entry-field">
             <div className="entry-field-label">Key Outcomes</div>
             <div className="entry-field-value">
-              Achieved competitive retrieval precision on financial QA benchmarks.
-              Documented chunking strategies and trade-offs in an internal report.
+              Improved answer relevance over baseline retrieval through iterative tuning
+              of chunking and embedding strategies. Documented trade-offs between retrieval
+              precision and generation quality across evaluation metrics.
             </div>
           </div>
         </div>
