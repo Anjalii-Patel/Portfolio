@@ -7,29 +7,29 @@ export default function AboutPage() {
     <>
       <div className="page-header">
         <h1 className="page-title">About</h1>
-        <p className="page-subtitle">Background · Interests · Contact</p>
+        <p className="page-subtitle">Background · Research Interests · Contact</p>
       </div>
 
-      {/* ── Research Interests ───────────────────────────── */}
+      {/* Research Interests */}
       <section className="about-section">
         <div className="about-section-title">Research Interests</div>
         <ul className="interest-list">
-          <li>Multimodal AI — integrating heterogeneous data (optical, LiDAR)</li>
-          <li>Machine learning for remote sensing and space-related data</li>
-          <li>Data representation and alignment across modalities</li>
-          <li>System-level behavior and limitations in ML pipelines</li>
-          <li>Astronomy — computational and observational perspectives</li>
+          <li>Multimodal machine learning — alignment across optical, DEM, and LiDAR data</li>
+          <li>Representation learning for heterogeneous sensor data</li>
+          <li>Cross-modal feature matching and registration</li>
+          <li>System-level behavior and failure modes in ML pipelines</li>
+          <li>Astronomy — observational and data-driven perspectives</li>
         </ul>
       </section>
 
-      {/* ── Education ────────────────────────────────────── */}
+      {/* Education */}
       <section className="about-section">
         <div className="about-section-title">Education</div>
 
         <div className="edu-entry">
-          <div className="edu-degree">PhD — Upcoming</div>
+          <div className="edu-degree">PhD — Planned</div>
           <div className="edu-institution">
-            Pandit Deendayal Energy University (PDEU)
+            Pandit Deendayal Energy University (PDEU) · Starting 2026
           </div>
         </div>
 
@@ -48,21 +48,22 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── Personal Interests ───────────────────────────── */}
+      {/* Personal Interests */}
       <section className="about-section">
         <div className="about-section-title">Personal Interests</div>
         <p className="about-text">
-          I have a longstanding interest in observational astronomy, which
-          informs how I approach space-related data and motivates my research direction.
+          I have a sustained interest in astronomy and related literature, particularly
+          in how observational data reflects underlying physical structure.
         </p>
 
         <p className="about-text">
-          More broadly, I am interested in how large-scale physical systems can be
-          understood through data, and how computational models can support that understanding.
+          I also spend time reading across topics in physics and machine learning,
+          which shapes how I think about data representation and the limits of
+          computational models.
         </p>
       </section>
 
-      {/* ── Contact ──────────────────────────────────────── */}
+      {/* Contact */}
       <section className="about-section">
         <div className="about-section-title">Contact</div>
         <div className="contact-list">
