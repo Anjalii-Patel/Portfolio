@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/",            label: "Home" },
   { href: "/work",        label: "Work & Research" },
-  { href: "/publications",label: "Publications" },
+  { href: "/publications",label: "Outputs" },
   { href: "/about",       label: "About" },
 ];
 
@@ -17,7 +17,7 @@ export default function Sidebar() {
     <aside className="sidebar">
       <div className="sidebar-identity">
         <div className="sidebar-name">Anjali Patel</div>
-        <div className="sidebar-role">AI · Research</div>
+        <div className="sidebar-role">Research · ISRO</div>
       </div>
 
       <div className="sidebar-divider" />
