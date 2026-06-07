@@ -5,9 +5,10 @@ export default function HomePage() {
       <div className="home-layout">
         <div className="home-left">
           <h1 className="home-name">Anjali Patel</h1>
-          <p className="home-tagline">AI · Multimodal Systems · Cross-Modal Learning</p>
+          <p className="home-tagline">Cross-Modal Registration · Lunar Terrain Navigation</p>
 
-          <div className="home-divider" />          
+          <div className="home-divider" />
+
           <p className="home-description">
             Working as a Project Associate – I at PDEU on an ISRO-funded research project
             focused on cross-modal alignment between LiDAR intensity images, Digital Elevation
@@ -15,9 +16,8 @@ export default function HomePage() {
           </p>
 
           <p className="home-description" style={{ marginTop: '0.75rem' }}>
-            The work centers on how differences in structure, resolution, and signal across
-            these modalities affect feature matching and representation. Current efforts involve
-            designing hybrid approaches that balance robustness with real-time constraints,
+            Current work targets structural representation of heterogeneous lunar terrain data
+            for robust feature matching, that balance robustness with real-time constraints,
             with deployment targeted on FPGA hardware.
           </p>
 
@@ -42,20 +42,20 @@ export default function HomePage() {
       {/* ── Quick Stats ── */}
       <div className="home-stats">
         <div className="home-stat">
-          <span className="stat-value">Multimodal Systems</span>
-          <span className="stat-label">Optical · DEM · LiDAR</span>
+          <span className="stat-value">Cross-Modal Registration</span>
+          <span className="stat-label">LiDAR · DEM · Optical</span>
         </div>
         <div className="home-stat">
-          <span className="stat-value">ISRO-Funded Work</span>
+          <span className="stat-value">Autonomous Navigation</span>
+          <span className="stat-label">Lunar Descent · FPGA</span>
+        </div>
+        <div className="home-stat">
+          <span className="stat-value">ISRO RESPOND</span>
           <span className="stat-label">Ongoing Research</span>
         </div>
         <div className="home-stat">
-          <span className="stat-value">RAG & Speech Systems</span>
-          <span className="stat-label">Previous Work</span>
-        </div>
-        <div className="home-stat">
-          <span className="stat-value">Research Focus</span>
-          <span className="stat-label">Remote Sensing Data</span>
+          <span className="stat-value">PhD — Upcoming</span>
+          <span className="stat-label">PDEU · Nov/Dec 2026</span>
         </div>
       </div>
     </div>
