@@ -10,26 +10,24 @@ export default function AboutPage() {
         <p className="page-subtitle">Background · Research Interests · Contact</p>
       </div>
 
-      {/* Research Interests */}
       <section className="about-section">
         <div className="about-section-title">Research Interests</div>
         <ul className="interest-list">
-          <li>Multimodal machine learning — alignment across optical, DEM, and LiDAR data</li>
-          <li>Representation learning for heterogeneous sensor data</li>
-          <li>Cross-modal feature matching and registration</li>
-          <li>System-level behavior and failure modes in ML pipelines</li>
+          <li>Cross-modal image registration — LiDAR intensity, DEM, and optical imagery</li>
+          <li>Structural and geometric representations for heterogeneous terrain data</li>
+          <li>Autonomous navigation and terrain-relative localization</li>
+          <li>System-level behavior and failure modes in registration pipelines</li>
           <li>Astronomy — observational and data-driven perspectives</li>
         </ul>
       </section>
 
-      {/* Education */}
       <section className="about-section">
         <div className="about-section-title">Education</div>
 
         <div className="edu-entry">
-          <div className="edu-degree">PhD — Planned</div>
+          <div className="edu-degree">PhD — Upcoming</div>
           <div className="edu-institution">
-            Pandit Deendayal Energy University (PDEU) · Starting 2026
+            Pandit Deendayal Energy University (PDEU)
           </div>
         </div>
 
@@ -48,14 +46,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Personal Interests */}
       <section className="about-section">
         <div className="about-section-title">Personal Interests</div>
         <p className="about-text">
           I have a sustained interest in astronomy and related literature, particularly
           in how observational data reflects underlying physical structure.
         </p>
-
         <p className="about-text">
           I also spend time reading across topics in physics and machine learning,
           which shapes how I think about data representation and the limits of
@@ -63,7 +59,6 @@ export default function AboutPage() {
         </p>
       </section>
 
-      {/* Contact */}
       <section className="about-section">
         <div className="about-section-title">Contact</div>
         <div className="contact-list">
