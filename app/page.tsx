@@ -32,10 +32,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="home-photo-wrap"> 
-          <div className="home-photo-placeholder">
-            <span>Photo<br />goes<br />here</span>
-          </div>
+        <div className="home-photo-wrap">
+          <img src="https://res.cloudinary.com/ymvvetap/image/upload/v1782456427/profile_photo.jpg" alt="Anjali Patel" className="home-photo" />
         </div>
       </div>
 

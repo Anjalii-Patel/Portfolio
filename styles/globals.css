@@ -198,6 +198,9 @@ nav a.active {
 .home-photo-wrap {
   width: 280px;
   flex-shrink: 0;
+  object-fit: cover; 
+  border-radius: inherit;
+  height: 280px;
 }
 
 .home-photo-wrap img {
@@ -205,7 +208,7 @@ nav a.active {
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 6px;
+  border-radius: 50%;
   filter: grayscale(15%) contrast(1.05);
   transition: filter 0.3s ease;
 }
@@ -742,6 +745,7 @@ nav a.active {
 
   .home-photo-wrap {
     width: 180px;
+    height: 180px
   }
 
   .home-stats {
