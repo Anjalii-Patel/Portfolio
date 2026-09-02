@@ -1,10 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "../styles/globals.css";
 import Sidebar from "@/components/Sidebar";
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0E1117",
+};
+
 export const metadata: Metadata = {
   title: "Anjali Patel",
-  description: "AI + Space Systems Research — Project Associate at PDEU (ISRO-funded)",
+  description: "AI and Space Systems Research | Project Associate at PDEU (ISRO-funded)",
 };
 
 export default function RootLayout({
